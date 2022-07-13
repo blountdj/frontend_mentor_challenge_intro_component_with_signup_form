@@ -1,0 +1,28 @@
+.errorMessage {
+  color: $color-red;
+  text-align: end;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  height: 0rem;
+  overflow: hidden;
+  transition: all 0.2s;
+}
+
+.errorIcon {
+  position: absolute;
+  top: 8px;
+  right: 20px;
+  opacity: 0;
+}
+
+.error > img {
+  opacity: 1;
+}
+
+.error > input {
+  border: 1.5px solid $color-red;
+}
+
+.error > p {
+  height: 1rem;
+}
